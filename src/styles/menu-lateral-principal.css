@@ -1,0 +1,33 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.barra-lateral-principal {
+    position: absolute;
+    width: 80px;
+    height: 100vh;
+    left: -2px;
+
+    background: linear-gradient(180.71deg, #F78B32 1.32%, #EE694B 45.24%, #EE694B 83.7%, #D8128A 158.45%);
+}
+
+.icons-menu-lateral img{
+    width: 60px;
+    height: 60px;
+    margin-bottom:70px;
+    margin-left: 12px;
+
+}
+
+.marcador-de-selecao img{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 9px;
+    height: 103px;
+}
+
+#icon-veterinaria{
+    position: relative;
+    margin-top: 72px;
+}
