@@ -1,0 +1,128 @@
+body{
+    margin:0;
+    padding:0;
+
+}
+
+span a{
+    color: rgba(247, 139, 50, 1);
+    text-decoration: none;
+}
+
+form {
+    margin-left: 100px;
+    margin-top:50px;
+    width: 700px;
+}
+h1{
+    color: rgba(247, 139, 50, 1);
+    font-family: Roboto, serif;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 35px;
+    width: 207px;
+    height: 35px;
+    margin-bottom: 0;
+    margin-left: 100px;
+
+}
+
+h4{
+    margin-top: 10px;
+    width: 240px;
+    height: 19px;
+    font-family: Roboto, serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #717171;
+    margin-left: 100px;
+
+}
+
+h3{
+    width: 103px;
+    height: 23px;
+    font-family: Roboto, serif;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #363636;
+    margin-left: 100px;
+
+}
+
+input {
+    font-family: Roboto, serif;
+    font-size: 16px;
+    line-height: 19px;
+    color: #838383;
+    padding: 5px;
+    display: block;
+    height: 37px;
+    width: 349px;
+    margin: 13px 5px;
+    border: 1px solid #C7C7C7;
+    box-sizing: border-box;
+    font-weight: normal;
+
+
+
+}
+
+#Termo-de-uso,#confimacaoPassword{
+    margin-top:4px;
+    display:inline;
+}
+
+#Termo-de-uso{
+    height: 20px;
+    width:40px;
+    margin-top:30px;
+    margin-bottom: 30px;
+
+}
+
+
+label {
+    height: 19px;
+    font-family: Roboto, serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #838383;
+    margin-left:55px;
+
+}
+
+#submit {
+    width: 188px;
+    height: 37px;
+    background: linear-gradient(180deg, #FEA71E 0%, rgba(253, 105, 58, 0.64) 100%);
+    border-radius: 12px;
+    font-family: Roboto, serif;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-left:86px;
+}
+
+.container-principal{
+    background-color:black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-fundo{
+    background-color:antiquewhite;
+}
+
+.container-form{
+    background-color:white;
+    width: 500px;
+}
+
+
+.img-fundo{
+}
