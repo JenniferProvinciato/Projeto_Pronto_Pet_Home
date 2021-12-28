@@ -123,7 +123,7 @@ label {
     width: 100vw;
 }
 .container-form{
-    top: 15vh;
+    top: 13vh;
     left: 10vw;
     width: 700px;
     position: absolute;
@@ -165,11 +165,5 @@ label {
         -webkit-animation-duration: 2s;
         -webkit-animation-fill-mode: forwards;
     }
-
-}
-
-@media screen and ( max-width: 360px){
-
-
 
 }
