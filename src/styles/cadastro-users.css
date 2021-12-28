@@ -151,19 +151,49 @@ label {
 
 }
 
-@media screen and ( max-width: 1200px){
+@media screen and ( max-width: 1300px){
 
-    @-webkit-keyframes example {
-        0%   {opacity: 100%}
-        100% {opacity: 0}
+
+    h1{
+        font-size: 30px;
+        height: 35px;
     }
-    .img-fundo img{
-        position: relative;
-        height: 100vh;
-        width: 50vw;
-        -webkit-animation-name: example;
-        -webkit-animation-duration: 2s;
-        -webkit-animation-fill-mode: forwards;
+
+    h4{
+        height: 15px;
+        font-size: 15px;
     }
+
+    h3{
+        font-size: 20px;
+    }
+
+    input{
+        font-size: 12px;
+        height: 35px;
+        width: 300px;
+    }
+
+    label {
+        font-size: 12px;
+    }
+
+
+    #Termo-de-uso{
+        height: 15px;
+        margin-top:15px;
+    }
+
+
+
+    #submit {
+        width: 150px;
+        height: 35px;
+        font-size: 15px;
+    }
+
 
 }
+
+
+
