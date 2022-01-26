@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang = "pt-BR">
+<head>
+  <meta charset = "UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Title</title>
+  <link href = "../styles/cadastro-vet.css" rel = "stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main>
+    <section>
+      <div class="container-principal">
+        <div class="container-form">
+              <h3>Bem Vindo!</h3>
+              <h1>Cadastramento</h1>
+              <h4>Preencha com seus dados abaixo</h4>
+              <form id = "form-cadastro-users" method = "get">
+                <input autofocus id = "nomeCompleto" maxlength = "50" name = "nomeCompleto" placeholder = "Nome Completo"
+                       type = "text">
+                <input id = "CPF" maxlength = "50" name = "CPF" placeholder = "CPF" type = "text">
+                <input id = "email" maxlength = "100" name = "email" type = "email" placeholder = "E-mail">
+                <input id = "CRMV" maxlength = "100" name = "CRMV" type = "text" placeholder = "CRMV">
+                <input autocomplete = "off" id = "password" name = "password" type = "password" placeholder = "Senha">
+                <input autocomplete = "off" id = "confimacaoPassword" name = "confimacaoPassword" type = "password" placeholder = "Confirmar Senha"><br>
+                <label for = "Termo-de-uso">Concorda com <span><a href="#">Termo de uso</a></span></label>
+                <input id = "Termo-de-uso" name = "Termo-de-uso" type = "radio" value = "Sim">
+                <input id = "submit" type = "submit" value = "Avançar">
+             </form>
+        </div>
+	      <div class="img-fundo">
+                 <img src="../resources/img-page-cadastro-users/Group%2033.png" alt="">
+	      </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
