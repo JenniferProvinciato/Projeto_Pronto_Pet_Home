@@ -12,7 +12,6 @@ span a{
 form {
     margin-left: 100px;
     margin-top:50px;
-    width: 700px;
 }
 h1{
     color: rgba(247, 139, 50, 1);
@@ -125,7 +124,6 @@ label {
 .container-form{
     top: 13vh;
     left: 10vw;
-    width: 700px;
     position: absolute;
     float: left;
     z-index: 1;
@@ -145,9 +143,10 @@ label {
         height: 100vh;
         width: 50vw;
         -webkit-animation-name: example;
-        -webkit-animation-duration: 2s;
+        -webkit-animation-duration: 1s;
         -webkit-animation-fill-mode: forwards;
     }
+
 
 }
 
