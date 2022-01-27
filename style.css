@@ -1,0 +1,11 @@
+main{
+    height: 100vh;
+}
+
+div{
+    display: inline-block;
+}
+
+#footer-box{
+    position: relative;
+}
