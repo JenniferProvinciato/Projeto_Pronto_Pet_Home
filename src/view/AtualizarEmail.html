@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="../styles/atualizarEmail.css" rel="stylesheet">
+    <link href="../styles/estilo-home.css" rel="stylesheet">
+    <script>
+        function abrirN(){
+            document.getElementById('popupNome').style.display= 'block';
+        }
+        function fecharN(){
+            document.getElementById('popupNome').style.display = 'none'
+        }
+
+        function abrirE(){
+            document.getElementById('popupEmail').style.display= 'block';
+        }
+        function fecharE(){
+            document.getElementById('popupEmail').style.display = 'none'
+        }
+
+        function abrirS(){
+            document.getElementById('popupSenha').style.display= 'block';
+        }
+        function fecharS(){
+            document.getElementById('popupSenha').style.display = 'none'
+        }
+
+    </script>
+</head>
+<body>
+
+<header>
+    <div>
+        <img src="../resources/img-page-cadastro-users/Início%20(1)%202.png" alt="">
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Notification</li>
+                <li>Messages</li>
+            </ul>
+        </nav>
+    </div>
+    <a href="../view/login.html"><img src="../resources/img/icons8-logout-50.png" alt="logout"></a>
+</header>
+
+    <div id="popupNome" class="popupNome">
+        <div class="container-popup">
+        <h2>Atualização de Dados</h2>
+        <p>Alterar nome</p>
+            <form>
+                <input id = "Nome" maxlength = "50" name = "Nome" placeholder = "Nome Completo" type = "email">
+                <input id = "confNome" maxlength = "50" name = "confNome" placeholder = "Confirmar Nome" type = "email">
+                <input  maxlength = "50" name = "senha" placeholder = "Senha Atual" type = "password">
+                <div class="container-botoes">
+                    <button onclick="location.href='javascript: fecharN();'" type="button" >Salvar</button>
+                    <button onclick="location.href='javascript: fecharN();'" type="button" >Cancelar</button>
+                </div>
+            </form>
+         </div>
+    </div>
+
+<div id="popupEmail"  class="popupEmail">
+    <div class="container-popup">
+        <h2>Atualização de Dados</h2>
+        <p>Atualizar Endereço de E-mail</p>
+        <form>
+            <input id = "email" maxlength = "50" name = "email" placeholder = "E-mail" type = "email">
+            <input id = "confEmail" maxlength = "50" name = "confEmail" placeholder = "Confirmar E-mail" type = "email">
+            <input maxlength = "50" name = "senha" placeholder = "Senha Atual" type = "password">
+            <div class="container-botoes">
+                <button onclick="location.href='javascript: fecharE();'" type="button" >Salvar</button>
+                <button onclick="location.href='javascript: fecharE();'" type="button">Cancelar</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div id="popupSenha" class="popupSenha">
+    <div class="container-popup">
+        <h2>Atualização de Dados</h2>
+        <p>Alterar Senha</p>
+        <form>
+            <input  maxlength = "50" name = "Senha" placeholder = "Senha atual" type = "password">
+            <input maxlength = "50" name = "confSenha" placeholder = "Nova senha" type = "password">
+            <input maxlength = "50" name = "senha" placeholder = "Confirmar nova senha" type = "password">
+            <div class="container-botoes">
+                <button onclick="location.href='javascript: fecharS();'" type="button" >Salvar</button>
+                <button onclick="location.href='javascript: fecharS();'" type="button" >Cancelar</button>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="options">
+<a href="javascript: abrirN();fecharE();fecharS()">Alterar nome</a>
+<a href="javascript: abrirE();fecharN();fecharS()">Atualizar Endereço de E-mail</a>
+<a href="javascript: abrirS();fecharN();fecharE()">Alterar Senha</a>
+    <script>fecharE();fecharN();fecharS()</script>
+</div>
+</body>
+</html>

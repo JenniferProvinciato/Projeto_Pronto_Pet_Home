@@ -1,0 +1,96 @@
+.popupEmail,.popupNome,.popupSenha{
+    position: fixed;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    margin: auto;
+    width: 500px;
+    height: 400px;
+    border: solid 1px #F78B32;
+    background: #F78B32;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 8px 9px 11px rgba(0, 0, 0, 0.25);
+}
+
+input {
+    font-family: Roboto, serif;
+    font-size: 14px;
+    line-height: 19px;
+    color: #838383;
+    padding: 5px 15px;
+    display: block;
+    height: 35px;
+    width: 350px;
+    margin: 10px 5px;
+    border: 1px solid #C7C7C7;
+    box-sizing: border-box;
+    font-weight: normal;
+    border-radius: 10px;
+}
+
+button{
+    width: 135px;
+    height: 35px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    font-family: Roboto, serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: chocolate;
+    border: none;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.container-botoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-popup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+h2{
+    color: #FFFFFF;
+    font-family: Roboto, sans-serif;
+}
+p{
+    color: #FFFFFF;
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+button:hover {
+    background: linear-gradient(180.71deg, #F78B32 1.32%, #EE694B 45.24%, #EE694B 83.7%, #D8128A 158.45%);
+    color: #FFFFFF;
+}
+
+button:focus {
+    background: linear-gradient(180.71deg, #F78B32 1.32%, #EE694B 45.24%, #EE694B 83.7%, #D8128A 158.45%);
+    color: #FFFFFF;
+}
+
+a{
+
+    text-decoration: underline;
+    color: #EE694B;
+    margin-left: 10px;
+    font-weight: 800;
+    margin-bottom: 10px;
+
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+}
