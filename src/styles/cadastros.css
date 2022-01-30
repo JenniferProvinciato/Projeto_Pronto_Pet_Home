@@ -113,7 +113,7 @@ label {
 }
 
 .img-fundo img {
-    height: 100vh;
+    height: 110vh;
     width: 50vw;
 }
 
@@ -147,6 +147,17 @@ label {
         -webkit-animation-duration: 1s;
         -webkit-animation-fill-mode: forwards;
     }
+
+    .container-principal{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-form{
+        position: relative;
+    }
+
 
 }
 
