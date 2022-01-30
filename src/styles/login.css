@@ -27,6 +27,7 @@ body,main{
     font-weight: normal;
 }
 
+
 .container-text h1{
     color: rgba(247, 139, 50, 1);
     font-family: Roboto, serif;
@@ -116,13 +117,17 @@ a{
 
 
 
-@media screen and ( max-width: 1200px){
+@media screen and ( max-width: 1200px) {
 
     @-webkit-keyframes example {
-        0%   {opacity: 100%}
-        100% {opacity: 0}
+        0% {
+            opacity: 100%
+        }
+        100% {
+            opacity: 0
+        }
     }
-    main img{
+    main img {
         position: relative;
         height: 100vh;
         width: 50vw;
@@ -131,17 +136,15 @@ a{
         -webkit-animation-fill-mode: forwards;
     }
 
-    main img{
-    height: 0;
-    width: 0}
-}
+    main img {
+        height: 0;
+        width: 0
+    }
 
-    .container-text{
+
+    main {
         display: flex;
         justify-content: center;
-        align-items: center;
-    }
 
-    .container-form{
-        position: relative;
     }
+}

@@ -148,15 +148,18 @@ label {
         -webkit-animation-fill-mode: forwards;
     }
 
+    .img-fundo img{
+        height: 0;
+        width: 0;
+    }
+
     .container-principal{
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    .container-form{
-        position: relative;
-    }
+
 
 
 }
