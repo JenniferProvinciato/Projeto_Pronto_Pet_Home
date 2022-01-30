@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang = "pt-BR">
+<head>
+  <meta charset = "UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login</title>
+  <link href = "../styles/login.css" rel = "stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main>
+    <div class="container-text">
+        <p>Olá, tudo Bem!</p>
+       <h1>Acesse sua conta</h1>
+       <h4>ou use sua conta de email</h4>
+       <input autofocus id = "email" maxlength = "50" name = "email" placeholder = "E-mail"
+             type = "email">
+       <input  id = "senha" maxlength = "50" name = "senha" placeholder = "Senha"
+             type = "password">
+        <h4>Esqueceu sua senha?<a href="#"> Clique aqui</a></h4>
+      <div class="container-bnt">
+        <button onclick="location.href='../view/cadastroUsers.html'" type="button" id="login">Usuario</button>
+        <button onclick="location.href='../view/cadastroVet.html'" type="button" id="cadastro">Veterinário</button>
+      </div>
+    </div>
+    <img src="../resources/img-login/Vector%2010.png">
+  </main>
+</body>
+</html>

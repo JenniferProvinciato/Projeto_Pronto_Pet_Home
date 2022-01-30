@@ -1,0 +1,147 @@
+body,main{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.container-text input{
+    font-family: Roboto, serif;
+    font-size: 18px;
+    line-height: 19px;
+    color: #838383;
+    padding: 5px 15px;
+    display: block;
+    height: 45px;
+    width: 450px;
+    margin: 13px 5px;
+    border: 1px solid #C7C7C7;
+    box-sizing: border-box;
+    font-weight: normal;
+}
+
+.container-text h1{
+    color: rgba(247, 139, 50, 1);
+    font-family: Roboto, serif;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 35px;
+}
+
+.container-text p:first-child {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+.container-text h4 {
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #717171;
+}
+
+
+
+
+.container-text #login {
+    width: 150px;
+    height: 48px;
+    background: linear-gradient(180deg, #FEA71E 0%, rgba(253, 105, 58, 0.64) 100%);
+    border-radius: 12px;
+    font-family: Roboto, serif;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 23px;
+    color: #FFFFFF;
+    border: none;
+    margin: 10px 30px;
+}
+
+.container-text #cadastro{
+    width: 150px;
+    height: 48px;
+    background-color: white;
+    border-radius: 12px;
+    font-family: Roboto, serif;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 23px;
+    color: #EE694B;
+    border-color: #EE694B;
+    margin: 10px 30px;
+}
+
+main{
+    display: flex;
+    justify-content: end;
+}
+
+main img {
+    float: right;
+    position: relative;
+    z-index: 0;
+    height: 100vh;
+    width: 40vw;
+}
+
+.container-text h1 {
+    margin: 0;
+}
+
+.container-text h4 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.container-text p:first-child {
+    margin-bottom: 50px;
+}
+
+
+a{
+    text-decoration: none;
+    color:#EE694B ;
+}
+
+
+
+
+@media screen and ( max-width: 1200px){
+
+    @-webkit-keyframes example {
+        0%   {opacity: 100%}
+        100% {opacity: 0}
+    }
+    main img{
+        position: relative;
+        height: 100vh;
+        width: 50vw;
+        -webkit-animation-name: example;
+        -webkit-animation-duration: 1s;
+        -webkit-animation-fill-mode: forwards;
+    }
+
+    main img{
+    height: 0;
+    width: 0}
+}
+
+    .container-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-form{
+        position: relative;
+    }
