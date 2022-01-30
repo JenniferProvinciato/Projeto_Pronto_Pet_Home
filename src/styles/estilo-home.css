@@ -34,8 +34,7 @@ p,h1{
 
 .foto-perfil{
     height: 60px;
-    width: 60px;
-    border-radius: 80px;
+    border-radius: 10px;
     margin-bottom: 15px;
 
 }
