@@ -7,7 +7,6 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top:-130px;
 }
 
 .container-text h1{
@@ -32,6 +31,7 @@ body{
     line-height: 19px;
     color: #717171;
 }
+
 
 
 
@@ -66,6 +66,7 @@ body{
 .container-text .selecao{
     display: flex;
     align-items: center;
+    margin-bottom: 100px;
 }
 main{
     display: flex;
@@ -93,3 +94,8 @@ main img {
     margin-bottom: 50px;
 }
 
+
+#gato-img{
+    height: 100px;
+    width: 150px;
+}
