@@ -10,16 +10,17 @@ p,h1{
 .container-itens{
     margin-top: 130px;
     display: flex;
-    align-items: center;
     justify-content: center;
     background: #FFFFFF;
     flex-wrap: wrap;
+    margin-right:80px;
+    max-width: 1000px;
 
 }
 
 .container-itens .container-forma{
-    height: 200px;
-    width: 170px;
+    height: 300px;
+    width: 200px;
     background: #FFFFFF;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
     border-radius: 21px;
@@ -32,8 +33,8 @@ p,h1{
 }
 
 .foto-perfil{
-    height: 55px;
-    width: 55px;
+    height: 60px;
+    width: 60px;
     border-radius: 30px;
     margin-bottom: 15px;
 
@@ -68,117 +69,45 @@ p,h1{
 
 /*--------------------------------------------------------*/
 
-.container-principal-home{
+.container-principal-home {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
-/*---------------------*/
-
-.container-main{
-    display: flex;
-
-}
-
-
-/*------------------------------*/
-
-.container-tools{
-    display: flex;
-    flex-direction: column;
-    margin-top: -100px;
-
-}
-
-.container-historico, .container-agendamentos{
-    margin-right: 50px;
-    margin-left: 50px;
-}
-
-.container-agendamentos{
-    width: 300px;
-    height: 100px;
-    margin-bottom: 100px;
-    margin-left: 20px;
-
-
-}
-
-.container-agendamentos p{
-    font-size: 25px;
-    margin-top: 0;
-    margin-bottom: 15px;
-}
-
-.container-historico p{
-    font-size: 25px;
-    margin-top: 0;
-
-}
-
-.container-interno-tools{
-    display: flex;
-    align-items: center;
-
-}
-
-.container-interno-tools p{
-    font-size: 16px;
-    margin-left: 20px;
-}
-
-.linha-vertical{
-    width: 1px;
-    height: 50px;
-    background-color: #717171;
-    opacity: 20%;
-}
-
-.linha-horizontal{
-    width: 300px;
-    height: 1px;
-    background-color: #717171;
-    opacity: 20%;
-    margin-bottom: 15px;
-}
-
-.container-historico{
-    width: 300px;
-    height: 100px;
-    margin-left: 20px;
-
-}
 
 /*-------------------------------*/
 
 .container-master{
     display: flex;
     flex-direction: column;
+    margin-left: 60px;
 }
 
 .header-container-principal h1{
     margin-bottom: 0;
-    margin-left: 50px;
     font-size: 27px;
     font-weight: bolder;
 }
 
 .container-filtros{
-    margin-left: 120px;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
-.container-filtros #localizacao{
+.container-filtros input{
     border-radius: 5px;
     border: #C7C7C7 1px solid;
     height: 15px;
     padding: 5px 15px;
     font-size: 12px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+.container-filtros #data {
+    letter-spacing: 2px;
 }
 
 .container-filtros button{
-    margin-left: 30px;
     background: linear-gradient(180.71deg, #F78B32 1.32%, #EE694B 45.24%, #EE694B 83.7%, #D8128A 158.45%);
     border: none;
     height: 25px;
@@ -188,5 +117,101 @@ p,h1{
 }
 
 .container-itens{
-    margin-top: 40px;
+    margin-top: 45px;
+    margin-bottom: 100px;
 }
+
+/*--------------------------------------------------*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+    width: 100%;
+    background: linear-gradient(180.71deg, #F78B32 1.32%, #EE694B 45.24%, #EE694B 83.7%, #D8128A 158.45%);
+    margin-bottom: 40px;
+}
+
+header div{
+    display: flex;
+    align-items: center;
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+}
+
+header img{
+    margin-right: 20px;
+}
+
+header ul li{
+    display: inline-block;
+    color: #FFFFFF;
+    margin-left: 50px;
+
+}
+
+header div img{
+    height: 40px;
+    margin-left: 20px;
+
+}
+
+/*------------------------*/
+
+.horarios{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    margin-top: 17px;
+}
+
+
+.horarios button {
+    border: #EE694B solid 1px;
+    padding: 2px;
+    background-color: #FFFFFF;
+    color: #EE694B;
+    font-weight: 700;
+    margin: 3px;
+}
+
+.horarios button:hover {
+    background: linear-gradient(180.71deg, #F78B32 1.32%, #EE694B 45.24%, #EE694B 83.7%, #D8128A 158.45%);
+    color: #FFFFFF;
+}
+
+.horarios button:focus {
+    background: linear-gradient(180.71deg, #F78B32 1.32%, #EE694B 45.24%, #EE694B 83.7%, #D8128A 158.45%);
+    color: #FFFFFF;
+}
+
+/*-----------------*/
+
+footer{
+    height: 50px;
+    width: 100%;
+    background: linear-gradient(180.71deg, #F78B32 1.32%, #EE694B 45.24%, #EE694B 83.7%, #D8128A 158.45%);
+}
+
+.linha-horizontal{
+    height: 1px;
+    background-color: #D8128A;
+    width: 100%;
+    opacity: 30%;
+}
+
+small{
+    display: flex;
+    justify-content: center;
+    color: azure;
+    padding: 10px;
+}
+
+
+/*---------*/
