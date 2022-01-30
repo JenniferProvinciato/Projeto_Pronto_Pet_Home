@@ -68,6 +68,7 @@ p{
     font-family: Roboto, sans-serif;
     font-size: 12px;
     margin-top: 15px;
+
 }
 
 button:hover {
@@ -84,13 +85,21 @@ a{
 
     text-decoration: underline;
     color: #EE694B;
-    margin-left: 10px;
+    margin-left: 20px;
     font-weight: 800;
     margin-bottom: 10px;
+
 
 }
 
 .options{
     display: flex;
     flex-direction: column;
+}
+
+h1{
+    color: #EE694B;
+    margin-left: 20px;
+    margin-bottom: 30px;
+
 }
