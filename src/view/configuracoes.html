@@ -6,25 +6,35 @@
     <link href="../styles/configuracoes.css" rel="stylesheet">
     <link href="../styles/estilo-home.css" rel="stylesheet">
     <script>
+
+        function alertaCancelar(){
+            alert("Você acaba de cancelar as alterações")
+        }
+
+        function alertaSalvamento(){
+            alert("Alterações  salvas com sucesso")
+        }
+
         function abrirN(){
             document.getElementById('popupNome').style.display= 'block';
         }
         function fecharN(){
-            document.getElementById('popupNome').style.display = 'none'
+            document.getElementById('popupNome').style.display = 'none';
         }
 
         function abrirE(){
             document.getElementById('popupEmail').style.display= 'block';
         }
         function fecharE(){
-            document.getElementById('popupEmail').style.display = 'none'
+            document.getElementById('popupEmail').style.display = 'none';
         }
 
         function abrirS(){
             document.getElementById('popupSenha').style.display= 'block';
         }
         function fecharS(){
-            document.getElementById('popupSenha').style.display = 'none'
+            document.getElementById('popupSenha').style.display = 'none';
+
         }
 
     </script>
@@ -36,7 +46,7 @@
         <img src="../resources/img-page-cadastro-users/Início%20(1)%202.png" alt="">
         <nav>
             <ul>
-                <li>Pesquisa</li>
+                <li><a href="Home.html">Pesquisa</a></li>
                 <li>Historico</li>
                 <li>Agendamentos</li>
             </ul>
@@ -54,8 +64,8 @@
                 <input id = "confNome" maxlength = "50" name = "confNome" placeholder = "Confirmar Nome" type = "email">
                 <input  maxlength = "50" name = "senha" placeholder = "Senha Atual" type = "password">
                 <div class="container-botoes">
-                    <button onclick="location.href='javascript: fecharN();'" type="button" >Salvar</button>
-                    <button onclick="location.href='javascript: fecharN();'" type="button" >Cancelar</button>
+                    <button onclick="location.href='javascript: fecharN();alertaSalvamento();'" type="button" >Salvar</button>
+                    <button onclick="location.href='javascript: fecharN();alertaCancelar();'" type="button" >Cancelar</button>
                 </div>
             </form>
          </div>
@@ -70,8 +80,8 @@
             <input id = "confEmail" maxlength = "50" name = "confEmail" placeholder = "Confirmar E-mail" type = "email">
             <input maxlength = "50" name = "senha" placeholder = "Senha Atual" type = "password">
             <div class="container-botoes">
-                <button onclick="location.href='javascript: fecharE();'" type="button" >Salvar</button>
-                <button onclick="location.href='javascript: fecharE();'" type="button">Cancelar</button>
+                <button onclick="location.href='javascript: fecharE();alertaSalvamento();'" type="button" >Salvar</button>
+                <button onclick="location.href='javascript: fecharE();alertaCancelar();'" type="button">Cancelar</button>
             </div>
         </form>
     </div>
@@ -86,8 +96,8 @@
             <input maxlength = "50" name = "confSenha" placeholder = "Nova senha" type = "password">
             <input maxlength = "50" name = "senha" placeholder = "Confirmar nova senha" type = "password">
             <div class="container-botoes">
-                <button onclick="location.href='javascript: fecharS();'" type="button" >Salvar</button>
-                <button onclick="location.href='javascript: fecharS();'" type="button" >Cancelar</button>
+                <button onclick="location.href='javascript: fecharS();alertaSalvamento();'" type="button" >Salvar</button>
+                <button onclick="location.href='javascript: fecharS();alertaCancelar();'" type="button" >Cancelar</button>
             </div>
         </form>
     </div>

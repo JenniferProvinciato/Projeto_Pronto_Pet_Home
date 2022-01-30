@@ -81,8 +81,13 @@ button:focus {
     color: #FFFFFF;
 }
 
-a{
+a:first-child{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: normal;
+}
 
+a{
     text-decoration: underline;
     color: #EE694B;
     margin-left: 20px;
