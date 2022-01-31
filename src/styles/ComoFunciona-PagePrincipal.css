@@ -52,3 +52,14 @@
     font-size: 50px;
 }
 
+@media screen and ( max-width: 1200px){
+
+.container-ComoFunc .containerPrincipal{
+ 	zoom:60%
+}
+
+.container-ComoFunc h1{
+	margin-bottom: -100px;
+}
+
+}
