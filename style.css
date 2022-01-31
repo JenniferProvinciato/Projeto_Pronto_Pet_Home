@@ -1,9 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 main{
     height: 100vh;
 }
 
-div{
-    display: inline-block;
-    margin: 10px;
+footer{
+    background: linear-gradient(180.71deg, #F78B32 1.32%, #EE694B 45.24%, #EE694B 83.7%, #D8128A 158.45%);
+    width: 100%;
 }
 
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.redes-sociais img{
+    width: 30px;
+    margin-left: 10px;
+}
+
+ul{
+    list-style: none;
+    padding: 50px;
+    margin: 0px;
+}
+
+small{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.container ul li:first-child a{
+    size: 18px;
+    font-weight: bold;
+}
+
+.container ul li:first-child{
+    margin-bottom: 18px;
+}
