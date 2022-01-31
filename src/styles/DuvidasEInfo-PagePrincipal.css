@@ -3,55 +3,51 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container-Serv .containerPrincipal {
-    background-color: #ebe9e9;
-    height: 1040px;
+.container-Duvidas .containerPrincipal {
+    background-color: #ff8717;
+    height: 600px;
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.container-Serv .containerPrincipal .box {
+.container-Duvidas .containerPrincipal .box {
     height: 200px;
     width: 200px;
     display: flex;
+    text-align: center;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
 }
 
-.container-Serv .containerPrincipal .box {
+.container-Duvidas .containerPrincipal .box {
     height: 308px;
     width: 408px;
 }
 
-.container-Serv {
+.container-Duvidas {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.container-Serv .box h4 {
-    margin-top: 35px;
-    margin-bottom: 40px;
-    color: #f48b48;
-    font-family: "Space Grotesk", sans-serif;
-    font-size: 25px;
-}
-.container-Serv .box p {
+.container-Duvidas .box p {
+    margin-top: 40px;
     margin-bottom: 5px;
-    color: #f48b48;
+    color: azure;
     font-family: "Space Grotesk", sans-serif;
-    font-size: 20px;
+    font-size: 22px;
 }
-.container-Serv h1 {
-    margin-bottom: -150px;
+.container-Duvidas h1 {
     z-index: 1;
-    color: #f48b48;
+    color: azure;
     font-family: "Space Grotesk", sans-serif;
     font-size: 50px;
 }
 
-.container-Serv .box{
-    margin-bottom: 250px;
+.container-Duvidas{
+    margin-top: 200px;
+    margin-bottom: 200px;
 }
