@@ -3,7 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container-Serv .containerPrincipal {
+.container-Serv .containerPrincipal {	
+    zoom:75%;
     background-color: #ebe9e9;
     height: 1040px;
     width: 100%;
@@ -54,4 +55,18 @@
 
 .container-Serv .box{
     margin-bottom: 250px;
+}
+
+
+
+@media screen and ( max-width: 1200px){
+
+.container-Serv .containerPrincipal{
+ 	zoom:60%
+}
+
+.container-Serv h1{
+	margin-bottom: -100px;
+}
+
 }
