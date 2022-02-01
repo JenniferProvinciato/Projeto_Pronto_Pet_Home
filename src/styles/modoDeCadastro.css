@@ -99,3 +99,21 @@ main img {
     height: 100px;
     width: 150px;
 }
+
+@media screen and ( max-width: 1090px){
+
+.container-text{
+	zoom:65%
+}
+
+main img{
+	height:0;
+	width:0
+}
+
+main {
+justify-content: center;
+    align-items: center;
+}
+
+}
