@@ -1,6 +1,7 @@
 body, main{
     margin: 0;
     padding: 0;
+    min-width: 362px;
 }
 
 
@@ -43,6 +44,28 @@ main header ul li:hover{
     border-bottom: #EE694B 1px solid;
 }
 
+
+@media (min-width:0) {
+    main header nav img{
+        display: inline;
+        width: 50px;
+        margin-top: 4px;
+    }
+
+    main header nav ul {
+        display: none;
+    }
+}
+
+@media (min-width:600px) {
+    main header nav img {
+        display: none;
+    }
+
+    main header nav ul {
+        display: inline-block;
+    }
+}
 /*-------------------------------------------------------------------*/
 
 
@@ -65,9 +88,6 @@ main{
 }
 .contact{
     min-width: 300px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 
@@ -196,6 +216,58 @@ main{
     margin-top: 10px;
 }
 
+@media (min-width: 0) {
+    .como-funciona .info-cad img {
+        width: 200px;
+    }
+    .como-funciona .info-escolha img {
+        width: 300px;
+    }
+
+    .como-funciona .info-cad,.como-funciona .info-escolha{
+        flex-direction: column;
+    }
+    .como-funciona .info-escolha{
+        flex-direction: column-reverse;
+    }
+}
+
+@media (min-width:600px) {
+    .como-funciona .info-cad, .como-funciona .info-escolha {
+        flex-direction: row;
+    }
+    .como-funciona .info-escolha img{
+        margin-right:0;
+    }
+
+    .info-escolha p{
+        font-size: 13px;
+    }
+
+}
+
+@media (min-width:730px) {
+    .como-funciona .info-cad img {
+        width: 400px;
+    }
+    .como-funciona .info-escolha img {
+        width: 400px;
+    }
+}
+
+@media (min-width:1200px) {
+    .como-funciona .info-escolha img{
+        width: 600px;
+        margin-right: 60px;
+
+    }
+
+    .como-funciona .info-cad img{
+        width: 400px;
+    }
+
+}
+
 /*--------------------------------------------------------------------------*/
 
 .containerThree{
@@ -268,6 +340,32 @@ main{
 .containerFour .info-verific-vet div{
     margin-right: 50px;
 }
+@media (min-width:0) {
+
+    .info-verific-vet img{
+        width: 350px;
+    }
+
+    .containerFour .info-verific-vet {
+        flex-direction: column;
+    }
+}
+
+@media (min-width:600px) {
+    .info-verific-vet img{
+        width: 400px;
+    }
+
+    .containerFour .info-verific-vet {
+        flex-direction: row;
+    }
+}
+
+@media (min-width:730px) {
+    .info-verific-vet img{
+        width: 600px;
+    }
+}
 
 
 /*-----------------------------------------------------------------------------*/
@@ -311,8 +409,6 @@ main{
 #img-back02{
     width:100px;
     position: absolute;
-    left: 40px;
-    top:20px;
     opacity: 70%;
 }
 .icon-positivo{
@@ -395,6 +491,21 @@ main{
 
 .containerDepoiments{
     margin-top: 50px;
+}
+
+@media (min-width:0) {
+    .depoiments {
+        flex-wrap: wrap;
+    }
+
+    .containerDepoiments{
+        text-align: center;
+    }
+
+    #img-back02{
+        left: 40px;
+        top:80px;
+    }
 }
 
 /*--------------------------------------------------------------*/
@@ -480,6 +591,17 @@ small{
     color: azure;
     padding: 10px;
 }
+
+@media (min-width:0) {
+    .container {
+        flex-wrap: wrap;
+    }
+    .container ul:first-child li:last-child {
+    position: relative;
+}
+
+}
+
 
 /*----------------------*/
 
