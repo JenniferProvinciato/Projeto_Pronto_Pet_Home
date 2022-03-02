@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang = "pt-BR">
+<head>
+  <meta charset = "UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../styles/newHomePage.css">
+  <title>Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script>
+        function revelarTexto(indice){
+            let maisTexto = document.getElementById('duvi-'+indice);
+            let trocaButonMenos = document.getElementById('menos-'+indice)
+            let trocaButonMais = document.getElementById('mais-'+indice)
+            maisTexto.style.display = 'inline'
+            trocaButonMenos.style.display = 'inline'
+            trocaButonMais.style.display = 'none'
+        }
+        function ocultarTexto(indice){
+            let menosTexto = document.getElementById('duvi-'+indice);
+            let trocaButonMenos = document.getElementById('menos-'+indice)
+            let trocaButonMais = document.getElementById('mais-'+indice)
+            menosTexto.style.display = 'none';
+            trocaButonMenos.style.display = 'none'
+            trocaButonMais.style.display = 'inline'
+        }
+
+        function removerGif(){
+            let gif = document.getElementById('gif-gato')
+            gif.style.display = 'none'
+        }
+        setTimeout(removerGif, 1000*45)
+
+    </script>
+</head>
+<body>
+
+<header class="header-principal">
+
+    <h2>Pronto Pet Home</h2>
+    <img src="../resources/img-newHome/menu-aberto.png" alt="">
+    <nav>
+        <ul>
+            <li><a>Cadastrar</a></li>
+            <li><a>Login</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<main>
+
+  <div class="containerOne">
+    <div class="contact">
+      <div>
+      <h1>Sem tempo de levar o pet<br> no veterinario?</h1>
+      <p>Cadastre-se conosco e encontro<br> o melhor veterinario pertinho da sua casa</p>
+      </div>
+      <button class="btn-cadas" type="button">
+        Cadastrar
+      </button>
+    </div>
+    <div>
+      <img class="logo-area-1" alt="" src="../resources/img/logo.png">
+    </div>
+  </div>
+
+    <header>
+    <nav>
+        <img id="gif-gato" src="../resources/img-newHome/Cat%20Walk%20practise%20by%20uppuN%20on%20DeviantArt.gif" alt="">
+        <ul>
+            <li><a href="#">Servicos</a></li>
+            <li><a href="#">Depoimentos</a></li>
+            <li><a href="#">Duvidas</a></li>
+            <li><a href="#">Entrar</a></li>
+
+        </ul>
+    </nav>
+  </header>
+
+    <div class="containerTwo">
+
+    <div class="como-funciona">
+      <h1>Como funciona</h1>
+      <div class="info-cad">
+        <div>
+          <h2>Cadastro</h2>
+          <p>Cadastre-se na nossa plataforma de<br> forma rapida e sugura para
+          ter acesso<br> a todas as nossas funcionalidades</p>
+          <p>Preservamos suas informações,<br> então pedimos somente o necessario</p>
+          <ul>
+            <li>Nome</li>
+            <li>CPF</li>
+            <li>E-mail</li>
+            <li>Senha forte</li>
+          </ul>
+        </div>
+        <img src="../resources/img-newHome/cad.png" alt="">
+      </div>
+
+      <div class="info-escolha">
+        <img src="../resources/img-newHome/procura-de-vets.png" alt="">
+        <div>
+          <h2>Escolha</h2>
+          <p>Escolha um veterinario mais proximo da sua<br>
+          residencia e que mais lhe agrade, você pode<br>
+          filtrar pelos mais variados aspectos, desde</p>
+          <ul>
+            <li>Preço</li>
+            <li>Reputação</li>
+            <li>Dia</li>
+            <li>Hora</li>
+          </ul>
+          <p>Depois disso, é só confirmar e pronto<br>
+          seu pet terá um excelente tratamento, com o nosso<br>
+            garantido pelo nosso selo de melhor atendimento</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="containerThree">
+        <h2>Servicos</h2>
+      <div class="servicos">
+          <div class="box-service">
+              <img class="img-vet-ser img-1" src="../resources/img-newHome/m-vet-1.png" alt="">
+              <h2>MEDICAMENTOS</h2>
+              <p>Via: oral, subcutânea e intramuscular.<br>
+                  Qualquer medicamento pode ser levado<br>
+                  pelo médico veterinário.
+              </p>
+          </div>
+          <div class="box-service">
+              <img  class="img-vet-ser img-2" src="../resources/img-newHome/m-vet-3.png" alt="">
+              <h2>CONSULTAS</h2>
+              <p>Consultas de rotina ou checkup,<br>
+                  pediátrica, geriátrica ou com especialista.<br>.
+                  Incluso um retorno em até 30 dias, suporte<br>
+                  do veterinário e da Pronto Pet Home.</p>
+          </div>
+          <div class="box-service">
+              <img  class="vet-ser  img-3" src="../resources/img-newHome/m-vet-4.png" alt="">
+              <h2>CURATIVOS, IMOBILIZAÇÕES<br>
+                  E ATADURAS</h2>
+              <p>Colocação de curativos ou imobilizações<br>
+                  pós-traumáticas e manutenções pós-cirúrgica.<br>
+                  Os materiais são levados pelo médico veterinário.</p>
+          </div>
+      </div>
+
+  </div>
+
+    <div class="containerFour">
+        <div class="info-verific-vet">
+            <img id="img-verific-vet" src="../resources/img-newHome/verif-vets.png" alt="">
+            <div>
+                <h2>Verificacao do Veterinarios</h2>
+                <p>Todos os veterinarios cadastrados em nossa<br>
+                plataforma passam por uma rigorosa verificacao <br>
+                de suas informacoes antes de serem aceitos<br><br>
+                Alem de serem monitorados a cada atendimento<br>
+                realizado para garantir 100% de qualidade e suguranca<br>
+                para nosso usuarios.</p>
+                <img id="selo" src="../resources/img-newHome/selo.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="containerFive">
+        <div class="diferenc-company">
+            <img src="../resources/img-newHome/cahorro-gato-G.png" alt="">
+            <div>
+                <h2>Um conceito de Qualidade</h2>
+                <p>O amor no cuidado dos pet e o que nos move, somos focados diariamente<br>
+                a oferecer o melhor trabalho possivel aos nossos usuarios, tirando suas duvidas<br>
+                auxiliando com os seus problemas e com o que mais precisarem.<br><br>
+                    trabalhamos constantemente buscando as melhores solucoes possiveis<br>
+                para seu atendimento, porque voce e o seu animalzinho e o que mais importa<br>
+                para toda a nossa equipe, somos reconhecidos por nosso trabalho e desejamos <br>
+                que tenha a melhor experiência conosco.<p>
+                <img class="selo" src="../resources/img-newHome/selo.png" alt="">
+                <img class="selo" src="../resources/img-newHome/selo2.png" alt="">
+                <img class="selo" src="../resources/img-newHome/selo3.png" alt="">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="containerSix">
+        <div class="containerDepoiments">
+            <h2>O que os usuarios pensam sobre nos</h2>
+            <img id="img-back01" src="../resources/img-newHome/gostar.png" alt="">
+            <img id="img-back02" src="../resources/img-newHome/comentario-positivo.png" alt="">
+            <img class="icon-positivo" id="img-back03-1" src="../resources/img-newHome/gostar%20(1).png" alt="">
+            <img class="icon-positivo" id="img-back03-2" src="../resources/img-newHome/gostar%20(1).png" alt="">
+            <img class="icon-positivo" id="img-back03-3" src="../resources/img-newHome/gostar%20(1).png" alt="">
+
+            <div class="depoiments">
+
+                <div class="box-depoiments">
+                    <div class="info-pess-depoi">
+                        <img src="../resources/img/rosto5.jpg" alt="">
+                        <div>
+                        <h2>Caio Araujo</h2>
+                    <h4>Designer</h4>
+                        </div>
+                        </div>
+                <p>Super pratico e rapido, encontrei um veterinario pertinho
+                de casa, e ele foi super gentil, recomento com certeza</p>
+            </div>
+
+            <div class="box-depoiments">
+                <div class="info-pess-depoi">
+                    <img src="../resources/img/girl-2120196_1920.jpg" alt="">
+               <div>
+                <h2>Lindalva Marques</h2>
+                <h4>Dentista</h4>
+               </div>
+               </div>
+                <p>Tenho muito receio de veterinarios, mais
+                os que eu encontrei aqui, foram sempre muito
+                atenciosos, nunca tive problema e a plataforma
+                tambem e excelente, parabens a todos</p>
+            </div>
+            <div class="box-depoiments">
+                <div class="info-pess-depoi">
+                    <img src="../resources/img/rosto8.jpg" alt="">
+                <div>
+                    <h2>Vivian Rodrigues</h2>
+                      <h4>Estudante</h4>
+                </div>
+                </div>
+                <p>Simplesmente excelente, todo pessoal de suporte
+                sao adoraveis, e os veterinarios tambem, recemendo.</p>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="containerSeven">
+        <div class="duvidas">
+            <h2>Duvidas Frequentes</h2>
+
+            <div class="box-duvidas">
+                <div>
+                <button id="mais-01" type="button" onclick="revelarTexto('01')"><img src="../resources/img-newHome/sinal-de-mais.png" alt=""> </button>
+                    <button class="menos" id="menos-01" type="button" onclick="ocultarTexto('01')"><img src="../resources/img-newHome/menos.png" alt=""></button>
+                    <h2>Tenho que pagar para usar a plataforma</h2>
+                </div>
+                <p id="duvi-01">Nao, voce nao precisa pagar para usar a plataforma, mas voce deve pagar diretamente ao veterinario
+                os valores das consultas, tratamentos entre outros valores referentes aos servicos do veterinario</p>
+            </div>
+
+
+
+            <div class="box-duvidas">
+                <div>
+                <button id="mais-02" type="button" onclick="revelarTexto('02')"><img src="../resources/img-newHome/sinal-de-mais.png" alt=""> </button>
+                    <button class="menos" id="menos-02" type="button" onclick="ocultarTexto('02')"><img src="../resources/img-newHome/menos.png" alt=""></button>
+                <h2>Os veterinarios sao confiaveis?</h2>
+                </div>
+                <p id="duvi-02">Todos os veterinarios tem os seus dados confirmados antes de entrarem
+                na nossa plataforma, além de acompanharmos as avaliacoes dos seus atendimentos</p>
+            </div>
+
+            <div class="box-duvidas">
+                <div>
+                <button id="mais-03" type="button" onclick="revelarTexto('03')"><img src="../resources/img-newHome/sinal-de-mais.png" alt=""> </button>
+                    <button class="menos" id="menos-03" type="button" onclick="ocultarTexto('03')"><img src="../resources/img-newHome/menos.png" alt=""></button>
+                <h2>O preco dos atendimentos sao muito caros?</h2>
+                </div>
+                <p id="duvi-03">O valor de cada atendimento varia conforme o profissional e o tratamento
+                ministrado, recomendamos peca o orcamento a mais de um veterinario para conseguir
+                o melhor valor.</p>
+            </div>
+
+            <div class="box-duvidas">
+                <div>
+                <button id="mais-04" type="button" onclick="revelarTexto('04')"><img src="../resources/img-newHome/sinal-de-mais.png" alt=""></button>
+                    <button class="menos" id="menos-04" type="button" onclick="ocultarTexto('04')"><img src="../resources/img-newHome/menos.png" alt=""></button>
+                <h2>Tenho que pagar para usar a  </h2>
+            </div>
+            <p id="duvi-04">Nao voce nao precisa pargar para usar a plataforma, somente
+                    pagara ao veterinario conforme a consulta</p>
+            </div>
+
+            <div class="box-duvidas">
+                <div>
+                <button id="mais-05" type="button" onclick="revelarTexto('05')"><img src="../resources/img-newHome/sinal-de-mais.png" alt=""> </button>
+                    <button class="menos" id="menos-05" type="button" onclick="ocultarTexto('05')"><img src="../resources/img-newHome/menos.png" alt=""></button>
+                <h2>Tenho que pagar para usar a  </h2>
+            </div>
+
+        <p id="duvi-05">Nao voce nao precisa pargar para usar a plataforma, somente
+                    pagara ao veterinario conforme a consulta</p>
+            </div>
+            <div class="box-duvidas">
+                <div>
+                <button id="mais-06" type="button" onclick="revelarTexto('06')"><img src="../resources/img-newHome/sinal-de-mais.png" alt=""> </button>
+                    <button class="menos" id="menos-06" type="button" onclick="ocultarTexto('06')"><img src="../resources/img-newHome/menos.png" alt=""></button>
+                <h2>Tenho que pagar para usar a  </h2>
+            </div>
+
+    <p id="duvi-06">Nao voce nao precisa pargar para usar a plataforma, somente
+                    pagara ao veterinario conforme a consulta</p>
+            </div>
+            <div class="box-duvidas">
+                <div>
+                <button id="mais-07" type="button" onclick="revelarTexto('07')"><img src="../resources/img-newHome/sinal-de-mais.png" alt=""> </button>
+                    <button class="menos" id="menos-07" type="button" onclick="ocultarTexto('07')"><img src="../resources/img-newHome/menos.png" alt=""></button>
+                <h2>Tenho que pagar para usar a  </h2>
+            </div>
+
+    <p id="duvi-07">Nao voce nao precisa pargar para usar a plataforma, somente
+                    pagara ao veterinario conforme a consulta</p>
+            </div>
+            <div class="box-duvidas">
+                <div>
+                <button id="mais-08" type="button" onclick="revelarTexto('08')"><img src="../resources/img-newHome/sinal-de-mais.png" alt=""> </button>
+                <button class="menos" id="menos-08" type="button" onclick="ocultarTexto('08')"><img src="../resources/img-newHome/menos.png" alt=""></button>
+                <h2>Tenho que pagar para usar a  </h2>
+            </div>
+
+    <p id="duvi-08">Nao voce nao precisa pargar para usar a plataforma, somente
+                    pagara ao veterinario conforme a consulta</p>
+            </div>
+
+
+        </div>
+    </div>
+
+</main>
+<footer>
+    <div class="container">
+        <ul>
+            <li><a>Navegação</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Opções</a></li>
+            <li><a href="#">Como Funcionamos</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li>Para mais informações ligue <span>0800-777-8871-1</span> ou <span> 11 2281412-824 </span></li>
+
+        </ul>
+        <ul>
+            <li><a>Informações</a></li>
+            <li><a href="#">Dúvidas e informações</a></li>
+            <li><a href="#">Termo de uso e Responsabilidade</a></li>
+        </ul>
+
+        <div class="conatiner-redes-sociais-and-map">
+            <div class="redes-sociais">
+                <a href="#"><img src="../resources/img-newHome/logo-twitter-png-5860.png" alt=""></a>
+                <a href="#"> <img src="../resources/img-newHome/logo-instagram-png-2429.png" alt=""></a>
+                <a href="#"> <img src="../resources/img-newHome/whatsapp-logo-png-2260.png" alt=""></a>
+                <a href="#"> <img src="../resources/img-newHome/linkedin.png" alt=""></a>
+                <a href="#"> <img src="../resources/img-newHome/linkedin.png" alt=""></a>
+                <a href="#"> <img src="../resources/img-newHome/linkedin.png" alt=""></a>
+            </div>
+            <div class="map">
+                <a href="#"><img id="maps" src="../resources/img-newHome/maps.jpg" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <div class="linha-horizontal"></div>
+    <small>® Grupo1 Todos os direitos reservados</small>
+</footer>
+</body>
+</html>

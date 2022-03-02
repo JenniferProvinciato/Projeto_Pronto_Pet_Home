@@ -23,7 +23,7 @@ p,h1,li{
     width: 200px;
     background: #FFFFFF;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
-    border-radius: 21px;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,39 +32,113 @@ p,h1,li{
     margin-bottom: 50px;
 }
 
-.foto-perfil{
-    height: 60px;
-    border-radius: 10px;
-    margin-bottom: 15px;
-
+.info-vet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.container-itens .container-forma .estrelas{
-    height: 20px;
-    width: 100px;
-    margin-top: 25px;
+.info-vet p:first-child{
+    color: #EE694B;
+    font-weight: 800;
+    margin: 0 10px;
 }
 
-.container-itens .container-forma p{
-    margin: 2px;
-    font-family: Roboto,sans-serif;
-    font-size: 13px;
-}
-
-.container-itens .container-forma .container-botoes{
-    margin-top: 20px;
-
-}
-
-.container-itens .container-forma .container-botoes button{
-    background: rgba(7, 178, 208, 0.73);
-    border-radius: 9px;
-    color: #FFFFFF;
-    border: none;
-    height: 25px;
-    width: 90px;
+.info-vet p:last-child {
+    font-weight: 0;
+    margin: 0 10px;
+    color: #C7C7C7;
     font-size: 12px;
 }
+
+.info-vet img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+
+.dias-vet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff0e6;
+    width: 110px;
+    height: 28px;
+    margin-top: 20px;
+    border-radius: 50px;
+
+}
+
+.dias-vet img {
+    height: 30px;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.dias-vet img:hover {
+    height: 35px;
+}
+
+.dias-vet img:first-child {
+    transform: rotate(180deg);
+}
+
+.dias-vet p {
+    color: #EE694B;
+    font-weight: 400;
+}
+
+.time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time-vet{
+    margin-top: 10px;
+}
+
+
+.time-vet .circle{
+    height: 20px;
+    width: 20px;
+    background-color: #d7d7dc;
+    border-radius: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.time-vet .time .circle:focus {
+    background-color: #EE694B;
+}
+
+.time-vet .time .circle:hover {
+    background-color: #EE694B;
+}
+
+
+.time-vet p{
+    font-size: 11px;
+    color: #bdbdc2;
+}
+
+.agendar{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    height: 30px;
+    background: linear-gradient(180deg, #FEA71E 0%, rgba(253, 105, 58, 0.64) 100%);
+    border-radius: 12px;
+    color: #FFFFFF;
+    border: none;
+    width: 100px;
+
+}
+
+
 
 /*--------------------------------------------------------*/
 
@@ -159,38 +233,6 @@ header div img{
     height: 40px;
     margin-left: 20px;
 
-}
-
-/*------------------------*/
-
-.horarios{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    width: 140px;
-    margin-top: 17px;
-}
-
-
-.horarios button {
-    border: #EE694B dashed 0.1px;
-    padding: 2px;
-    background-color: #FFFFFF;
-    color: #EE694B;
-    font-weight: 700;
-    margin: 3px;
-    opacity: 75%;
-}
-
-.horarios button:hover {
-    background: linear-gradient(180.71deg, #F78B32 1.32%, #EE694B 45.24%, #EE694B 83.7%, #D8128A 158.45%);
-    color: #FFFFFF;
-}
-
-.horarios button:focus {
-    background: linear-gradient(180.71deg, #F78B32 1.32%, #EE694B 45.24%, #EE694B 83.7%, #D8128A 158.45%);
-    color: #FFFFFF;
 }
 
 /*-----------------*/
