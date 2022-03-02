@@ -4,6 +4,8 @@ html,body,main{
 
 }
 
+
+
 span a{
     color: rgba(247, 139, 50, 1);
     text-decoration: none;
@@ -132,37 +134,50 @@ label {
 }
 
 
+@media screen and ( max-width: 800px){
 
-@media screen and ( max-width: 1200px){
-
-    @-webkit-keyframes example {
-        0%   {opacity: 100%}
-        100% {opacity: 0}
-    }
-    .img-fundo img{
-        position: relative;
-        height: 100vh;
-        width: 50vw;
-        -webkit-animation-name: example;
-        -webkit-animation-duration: 1s;
-        -webkit-animation-fill-mode: forwards;
-    }
-
-    .img-fundo img{
-        height: 0;
-        width: 0;
+    .img-fundo {
+        display: none;
     }
 
     .container-principal{
         display: flex;
         justify-content: center;
         align-items: center;
+        text-align: center;
+    }
+    .container-form {
+    position: unset;
+    }
+
+    form {
+        margin-left: unset;
+    }
+
+    h1 {
+        margin-left: unset;
+        width: unset;
+    }
+
+    h4{
+        margin-left: 0;
+        width: unset;
+    }
+
+    h3 {
+        width: unset;
+        margin-left: unset;
+    }
+
+    main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
 
 
-
-}
+    }
 
 @media screen and ( max-width: 1300px){
 

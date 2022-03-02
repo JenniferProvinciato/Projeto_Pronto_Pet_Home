@@ -102,10 +102,6 @@ main img {
 
 @media screen and ( max-width: 1090px){
 
-.container-text{
-	zoom:65%
-}
-
 main img{
 	height:0;
 	width:0
@@ -116,4 +112,17 @@ justify-content: center;
     align-items: center;
 }
 
+}
+
+
+@media screen and ( max-width: 561px) {
+    .container-text{
+        zoom:75%
+    }
+}
+
+@media screen and ( max-width: 423px) {
+    .container-text{
+        zoom:60%
+    }
 }
