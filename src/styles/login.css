@@ -117,23 +117,15 @@ a{
 
 
 
-@media screen and ( max-width: 1200px) {
+@media screen and ( max-width: 939px) {
 
-    @-webkit-keyframes example {
-        0% {
-            opacity: 100%
-        }
-        100% {
-            opacity: 0
-        }
+    .container-text{
+        margin-right: unset;
     }
+
     main img {
-        position: relative;
-        height: 100vh;
-        width: 50vw;
-        -webkit-animation-name: example;
-        -webkit-animation-duration: 1s;
-        -webkit-animation-fill-mode: forwards;
+        display: none;
+
     }
 
     main img {
@@ -145,6 +137,13 @@ a{
     main {
         display: flex;
         justify-content: center;
+        align-items: center;
 
+    }
+}
+
+@media screen and ( max-width: 475px) {
+    main{
+        zoom: 78%;
     }
 }
