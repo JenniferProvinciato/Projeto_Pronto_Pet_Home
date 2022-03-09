@@ -13,7 +13,6 @@ p,h1,li{
     justify-content: center;
     background: #FFFFFF;
     flex-wrap: wrap;
-    margin-right:80px;
     max-width: 1000px;
 
 }
@@ -27,7 +26,6 @@ p,h1,li{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-right: 50px;
     margin-bottom: 50px;
     align-items: center;
 }
