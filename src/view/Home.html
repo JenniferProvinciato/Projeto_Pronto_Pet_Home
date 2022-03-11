@@ -25,21 +25,20 @@
     <a href="../view/login.html"><img src="../resources/img/icons8-logout-50.png" alt="logout"></a>
 </header>
 <main>
-<div class="container-main">
-    <div class="container-principal-home">
-        <div class="container-master">
-                <div class="header-container-principal">
+            <div class="header">
+                <div class="title">
                     <h1>Busca de Veterinarios</h1>
                 </div>
+
                 <div class="container-filtros">
                     <input type="text" name="localizacao" id="localizacao" placeholder="Localização">
-                    <input type="text" name="data" id="data" placeholder="DD/MM/YYYY">
+                    <input type="date" name="data" id="data" placeholder="DD/MM/YYYY">
                     <input type="text" name="hora" id="hora" placeholder="Horario">
-                    <input type="text" name="valorMax" id="valorMax" placeholder="Valor Maximo" maxlength="7">
-                    <input type="text" name="valormin" id="valormin" placeholder="Valor Minimo" maxlength="7">
-
-                    <button>Pesquisar</button>
-        </div>
+                    <input type="text" name="valorMax" id="valorMax" placeholder="Valor Maximo">
+                    <input type="text" name="valormin" id="valormin" placeholder="Valor Minimo">
+                    <button type="button">Pesquisar</button>
+                </div>
+            </div>
 
             <div class="container-itens">
 
@@ -197,11 +196,7 @@
                     <p class="p-localizacao">A 40 metros da sua localizacao atual</p>
                 </div>
 
-
             </div>
-        </div>
-    </div>
-</div>
 </main>
 <footer>
     <div class="linha-horizontal"></div>
